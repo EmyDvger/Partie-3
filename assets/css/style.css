@@ -1,0 +1,19 @@
+/* header */
+header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 410px;
+}
+h1 {
+  padding: 170px; /*marge interieur (inverse margin exterieur)*/
+  font-weight: bold; /*le gras du texte*/
+  font-size: 80px; /*taille du texte*/
+  font-family : "Verdana", Verdana, serif;
+}
+li {
+float: left;
+margin: 20px;
+list-style-type : none;
+}
