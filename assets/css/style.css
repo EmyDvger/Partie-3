@@ -10,10 +10,30 @@ h1 {
   padding: 170px; /*marge interieur (inverse margin exterieur)*/
   font-weight: bold; /*le gras du texte*/
   font-size: 80px; /*taille du texte*/
-  font-family : "Verdana", Verdana, serif;
+  font-family : "Verdana", serif;
 }
-li {
-float: left;
-margin: 20px;
-list-style-type : none;
+#menucolor {
+  background: #309696; /*barre bleu*/
+  height: 50px;
+  padding: 10px;
+  font-weight: bold;
+  border: solid 2px;
+}
+li, form {
+  display: inline;
+  margin: 30px; /*espace entre le nom dans le menu*/
+  list-style-type : none; /*retirer surlignage des liens*/
+}
+#search {
+  margin: 400px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff; /*texte blanc*/
+  font-size: 20px;
+  font-family : "Verdana", serif;
+}
+a:hover {
+  border:  solid 22px green;
+  background-color: green;
 }
