@@ -2,11 +2,14 @@
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <title>Voyage & Co</title>
+  <meta name="viewport" content="width=device-width, initial-scal=1"/>
   <link rel="stylesheet" href="assets/css/style.css"/>
+  <title>Voyage & Co</title>
+  <!-- scrip fontawesome -->
+  <!-- <script src="https://fontawesome.com/" cross>  </script> -->
 </head>
 <body>
-  <header id="entete">
+  <header id="header">
     <h1>Voyage & Co</h1>
   </header>
   <nav id="menucolor">
@@ -25,12 +28,36 @@
       </li>
       <li id="search">
         <form class="" action="index.html" method="post">
-          <input type="text" id="Search" name="Q" />
-          <button>Recherche</button>
+          <input type="text" id="Search" name="Q" placeholder="Rechercher"/>
+          <input type="submit" name="searchButton"value="Rechercher"/>
+          <!-- <button>Recherche</button> -->
         </form>
       </li>
+      <!-- navIcon -->
+      <li><i class= "fas fa-bars" id="navIcon"></i></li>
     </ul>
   </nav>
+  <div id="presentation">
+    <p id="textpresentation">Voyage&Co, est une agence de voyage en ligne qui couvre une large gamme de destinations à travers le monde. Nous vous proposons diverses produits packagé comme des circuits, des séjours avec transport, voyage individuels ou groupe.</p>
+  </div>
+  <!-- disposition des trois blocs images -->
+  <div id="blocline">
+    <div class="bloctext">  <!-- Bloc1 -->
+      <img src="assets/img/rome.jpg" alt="photo du Colisée" title="Italie-Rome"/>
+      <h2 class"text">Photographie du Colisée</h2>
+      <p>Visiter le Colisée lors de votre voyage à Rome, nous ferons découvrir également la fontaine de Trevi, une visite guidé nous racontera l'histoire de Pompeï</p>
+    </div>
+    <div class="bloctext"><!-- Bloc2 -->
+      <img src="assets/img/miami.jpg" alt="photo de Miami" title="Miami beach"/>
+      <h2 class"text">Photographie de Miami</h2>
+      <p>Venez découvrir la ville et la plage de Miami</p>
+    </div>
+    <div class="bloctext"><!-- Bloc3 -->
+      <img src="assets/img/tahiti.jpg" alt="photo de Tahiti" title="Tahiti"/>
+      <h2 class"text">Photographie de Tahiti</h2>
+      <p>Partez à l'aventure sur l'île de Tahiti</p>
+    </div>
+  </div>
 </body>
 </html>
 

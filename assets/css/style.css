@@ -4,13 +4,14 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 410px;
+  height: 410px;/*hauteur hearder*/
 }
 h1 {
   padding: 170px; /*marge interieur (inverse margin exterieur)*/
   font-weight: bold; /*le gras du texte*/
   font-size: 80px; /*taille du texte*/
   font-family : "Verdana", serif;
+  /* Nav */
 }
 #menucolor {
   background: #309696; /*barre bleu*/
@@ -25,15 +26,67 @@ li, form {
   list-style-type : none; /*retirer surlignage des liens*/
 }
 #search {
-  margin: 400px;
+  margin: 200px;
 }
 a {
   text-decoration: none;
   color: #ffffff; /*texte blanc*/
   font-size: 20px;
   font-family : "Verdana", serif;
+  border-right: solid 2px #020202;
+  padding-right: 50px;
+  padding-top: 26px;/*rallongé ligne par le haut*/
+  padding-bottom: 20px;/*rallongé ligne par le bas*/
 }
-a:hover {
-  border:  solid 22px green;
+a:hover { /*lorsque je survole les items*/
+  border:  solid 20px green;
   background-color: green;
 }
+/* presentation */
+#presentation {
+  background-color: #95d0f4;
+  height: 80px;
+  padding: 20px;
+}
+#textpresentation {
+  font-size: 20px;
+  font-family : "Verdana", serif;
+  text-align: justify;
+}
+/* 3 images */
+.text {
+    font-size: 20px;
+}
+p {
+    text-align: justify;
+    justify-content: center;
+}
+#presentation {
+  padding: 20px;
+}
+#blocline {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width:75%;
+  margin: 20px;
+  padding: 10px;
+}
+.bloctext, p {
+  text-align: center;
+  margin: 10px 5px;
+}
+/* Mediaquerie */
+/* @media screen and (max-width : 992px) {
+  #blockline {
+    flex-direction: column;
+  }
+} */
+/* @media screen and (max-width : 686px) {
+  a, form {
+    display: none;
+  }
+  #navIcon {
+  display: block;
+} */
