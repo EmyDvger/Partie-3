@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scal=1"/>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" media="screen" href="assets/css/style.css"/>
   <title>Voyage & Co</title>
-  <!-- scrip fontawesome -->
-  <!-- <script src="https://fontawesome.com/" cross>  </script> -->
+  <!-- CDN/Script fontawesome -->
+  <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header id="header">
@@ -14,18 +14,10 @@
   </header>
   <nav id="menucolor">
     <ul>
-      <li class="nav-home">
-        <a href="#">Accueil</a>
-      </li>
-      <li id="nav-destination">
-        <a href="#">Destinations</a>
-      </li>
-      <li id="nav-reservation">
-        <a href="#">Reservations</a>
-      </li>
-      <li id="nav-contact">
-        <a href="#">Contact</a>
-      </li>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#blockline">Destination</a></li>
+      <li><a href="#">Réservation</a></li>
+      <li><a href="#">Contact</a></li>
       <li id="search">
         <form class="" action="index.html" method="post">
           <input type="text" id="Search" name="Q" placeholder="Rechercher"/>
@@ -41,21 +33,22 @@
     <p id="textpresentation">Voyage&Co, est une agence de voyage en ligne qui couvre une large gamme de destinations à travers le monde. Nous vous proposons diverses produits packagé comme des circuits, des séjours avec transport, voyage individuels ou groupe.</p>
   </div>
   <!-- disposition des trois blocs images -->
-  <div id="blocline">
-    <div class="bloctext">  <!-- Bloc1 -->
-      <img src="assets/img/rome.jpg" alt="photo du Colisée" title="Italie-Rome"/>
-      <h2 class"text">Photographie du Colisée</h2>
-      <p>Visiter le Colisée lors de votre voyage à Rome, nous ferons découvrir également la fontaine de Trevi, une visite guidé nous racontera l'histoire de Pompeï</p>
-    </div>
-    <div class="bloctext"><!-- Bloc2 -->
+  <div id="blockline">
+
+    <div class="bloc"><!-- Bloc2 -->
       <img src="assets/img/miami.jpg" alt="photo de Miami" title="Miami beach"/>
-      <h2 class"text">Photographie de Miami</h2>
-      <p>Venez découvrir la ville et la plage de Miami</p>
+      <h2>Photographie de Miami</h2>
+      <p class="textBloc">Venez découvrir la ville et la plage de Miami</p>
     </div>
-    <div class="bloctext"><!-- Bloc3 -->
+    <div class="bloc"><!-- Bloc3 -->
       <img src="assets/img/tahiti.jpg" alt="photo de Tahiti" title="Tahiti"/>
-      <h2 class"text">Photographie de Tahiti</h2>
-      <p>Partez à l'aventure sur l'île de Tahiti</p>
+      <h2>Photographie de Tahiti</h2>
+      <p class="textBloc">Partez à l'aventure sur l'île de Tahiti</p>
+    </div>
+    <div class="bloc">  <!-- Bloc1 -->
+      <img src="assets/img/rome.jpg" alt="photo du Colisée" title="Italie-Rome"/>
+      <h2>Photographie du Colisée</h2>
+      <p class="textBloc">Visiter le Colisée lors de votre voyage à Rome, nous ferons découvrir également la fontaine de Trevi, une visite guidé nous racontera l'histoire de Pompeï</p>
     </div>
   </div>
 </body>

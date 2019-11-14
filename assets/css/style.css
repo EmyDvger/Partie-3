@@ -54,39 +54,38 @@ a:hover { /*lorsque je survole les items*/
   text-align: justify;
 }
 /* 3 images */
-.text {
-    font-size: 20px;
-}
 p {
-    text-align: justify;
-    justify-content: center;
+  text-align: justify;
 }
-#presentation {
-  padding: 20px;
-}
-#blocline {
+
+#blockline {
   display: flex;
-  justify-content: center;
 }
 img {
   width:75%;
-  margin: 20px;
-  padding: 10px;
 }
-.bloctext, p {
+.bloc {
+text-align: center;
+  margin: 15px 10px;
+  width: 30%;
+}
+.textBloc{
   text-align: center;
-  margin: 10px 5px;
 }
-/* Mediaquerie */
-/* @media screen and (max-width : 992px) {
-  #blockline {
+
+        /*Media queries*/
+@media screen and (max-width: 992px){
+  #blockline{
     flex-direction: column;
   }
-} */
-/* @media screen and (max-width : 686px) {
-  a, form {
+}
+@media screen and (max-width: 680px){
+  /* masquer les éléments de la nav barre */
+  a, form{
     display: none;
   }
-  #navIcon {
-  display: block;
-} */
+  /* Affiche l'icone menu-burger */
+  #navIcon{
+    display: block;
+  }
+}
